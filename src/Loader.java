@@ -6,8 +6,8 @@ public class Loader
             {
                 JFrame frame = new JFrame();
 
-                //Form form = new Form();
-                smartForm form = new smartForm();
+                Form form = new Form();
+                //smartForm form = new smartForm();
                 frame.setContentPane(form.getRootPanel());
 
                 frame.setTitle("GUI Basics");
