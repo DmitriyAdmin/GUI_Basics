@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="StandartForm">
+  <grid id="27dc6" binding="rootPanel" custom-create="true" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="974" height="670"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="6a2f6" class="javax.swing.JLabel" binding="surnameLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="70" height="16"/>
+          <minimumSize width="70" height="16"/>
+          <preferredSize width="70" height="16"/>
+          <text value="Фамилия"/>
+        </properties>
+      </component>
+      <component id="a1704" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="0" height="10"/>
+          <minimumSize width="0" height="10"/>
+          <preferredSize width="0" height="10"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="cda89" class="javax.swing.JLabel" binding="nameLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="70" height="16"/>
+          <minimumSize width="70" height="16"/>
+          <preferredSize width="70" height="16"/>
+          <text value="Имя"/>
+        </properties>
+      </component>
+      <component id="90d15" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="0" height="10"/>
+          <minimumSize width="0" height="10"/>
+          <preferredSize width="0" height="10"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="af4a9" class="javax.swing.JLabel" binding="patronymicLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="70" height="16"/>
+          <minimumSize width="70" height="16"/>
+          <preferredSize width="70" height="16"/>
+          <text value="Отчество"/>
+        </properties>
+      </component>
+      <component id="90c62" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="0" height="20"/>
+          <minimumSize width="0" height="20"/>
+          <preferredSize width="0" height="20"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="6c946" class="javax.swing.JTextField" binding="surnameTextField">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="9f539" class="javax.swing.JTextField" binding="nameTextField">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="74638" class="javax.swing.JTextField" binding="patronymicTextField">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="db087" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="80" height="16"/>
+          <minimumSize width="80" height="16"/>
+          <preferredSize width="80" height="16"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="ba70c" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="80" height="16"/>
+          <minimumSize width="80" height="16"/>
+          <preferredSize width="80" height="16"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f196" class="javax.swing.JButton" binding="nextFormButton">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <actionCommand value=""/>
+          <autoscrolls value="true"/>
+          <horizontalTextPosition value="0"/>
+          <text value="Cледующая форма"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
